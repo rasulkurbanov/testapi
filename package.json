@@ -1,0 +1,31 @@
+{
+  "name": "test_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.13.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasulkurbanov/testapi.git"
+  },
+  "author": "Rasuljon Kurbanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rasulkurbanov/testapi/issues"
+  },
+  "homepage": "https://github.com/rasulkurbanov/testapi#readme"
+}
